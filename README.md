@@ -28,6 +28,7 @@
 
 | Name | Description |
 | --- | --- |
+| [DeepSWE](https://deepswe.datacurve.ai/) | Measuring frontier coding agents on original, long-horizon engineering tasks. |
 | [SWE-rebench](https://swe-rebench.com/) | A software engineering benchmark that continuously updates with new tasks and uses time-window analysis to detect and eliminate data contamination. Designed to address contamination issues in SWE-bench. |
 | [SWE-Bench Pro (Public)](https://labs.scale.com/leaderboard/swe_bench_pro_public) | A large-scale benchmark by Scale with 1,865 tasks. Uses copyleft-licensed code to prevent data contamination and rigorously evaluates AI problem-solving across diverse real-world tasks from B2B, consumer apps, and developer tools (public dataset). |
 | [SWE-bench](https://www.swebench.com/) | A benchmark measuring how well AI can resolve bug fixes and feature implementations using real GitHub issues from OSS projects such as Django and Matplotlib. Offers multiple variants including Verified, Multilingual, and Multimodal. |
