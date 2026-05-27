@@ -28,6 +28,7 @@
 
 | 名称 | 説明 |
 | --- | --- |
+| [DeepSWE](https://deepswe.datacurve.ai/) | 最先端のコーディングエージェントを、独創的で長期的なエンジニアリングタスクで評価する。 |
 | [SWE-rebench](https://swe-rebench.com/) | 定期的に新しい課題を更新し、時間ウィンドウ分析でデータ汚染を検出・排除する仕組みを備えたソフトウェアエンジニアリングベンチマーク。SWE-benchの汚染問題を解決するために設計。 |
 | [SWE-Bench Pro（Public）](https://labs.scale.com/leaderboard/swe_bench_pro_public) | Scale社が提供する1,865タスクの大規模ベンチマーク。コピーレフトライセンスのコードを使用してデータ汚染を排除し、B2B・消費者向けアプリ・開発者ツールなど多様な実務課題でAIの問題解決力を厳密に評価する公開データセット版。 |
 | [SWE-bench](https://www.swebench.com/) | DjangoやMatplotlibなど実在OSSプロジェクトのGitHub Issueを用いて、AIがバグ修正や機能実装をどの程度解決できるかを測定するベンチマーク。Verified・Multilingual・Multimodalなど複数バリエーションを提供。 |
