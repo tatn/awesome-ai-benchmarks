@@ -41,6 +41,7 @@
 | [Terminal-Bench](https://www.tbench.ai/) | ソフトウェア開発・ML・セキュリティ・データサイエンスなど多領域のタスクで、AIエージェントのターミナル操作能力を成功率で評価するベンチマーク。 |
 | [SanityHarness](https://sanityboard.lr7.dev/) | Dart・Go・Kotlin・Rust・TypeScript・Zigなど複数言語の26タスクで、AIコーディングエージェントを難易度に応じた加重スコアで評価する高信頼性リーダーボード。 |
 | [τ-bench](https://taubench.com/#leaderboard) | 航空会社や小売業などの業務シナリオをシミュレーションし、AIエージェントがユーザーと対話しながらタスクを遂行する能力を測定するベンチマーク。 |
+| [ClawBench](https://github.com/TIGER-AI-Lab/ClawBench) | 実在するWebサイト上のV1 153件・V2 130件のタスクでブラウザエージェントを評価するオープンソースベンチマーク。Dockerで実行を分離し、複数のエージェントハーネスに対応するとともに、動画・スクリーンショット・HTTP通信・ブラウザ操作・エージェントメッセージの5層トレースを記録する。 |
 
 ## 数学・推論
 

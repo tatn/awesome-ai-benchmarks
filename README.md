@@ -41,6 +41,7 @@
 | [Terminal-Bench](https://www.tbench.ai/) | A benchmark evaluating AI agents' terminal operation capabilities by success rate across tasks spanning software development, ML, security, and data science. |
 | [SanityHarness](https://sanityboard.lr7.dev/) | A high-signal leaderboard evaluating AI coding agents with weighted scoring across 26 tasks in multiple languages including Dart, Go, Kotlin, Rust, TypeScript, and Zig. |
 | [τ-bench](https://taubench.com/#leaderboard) | A benchmark that simulates business scenarios such as airlines and retail, measuring AI agents' ability to complete tasks through user interaction and dialogue. |
+| [ClawBench](https://github.com/TIGER-AI-Lab/ClawBench) | An open-source benchmark for browser agents on 153 V1 and 130 V2 live-website tasks, with Docker-isolated runs, multiple agent harnesses, and five-layer replay traces. |
 
 ## Math & Reasoning
 
