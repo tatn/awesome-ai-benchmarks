@@ -48,6 +48,19 @@
 | --- | --- |
 | [FrontierMath](https://epoch.ai/frontiermath/tiers-1-4?view=graph&tab=leaderboard&tier=Core+%28Tiers+1-3%29) | A benchmark developed by Epoch AI that measures advanced mathematical reasoning with problems ranging from undergraduate level to unsolved research questions of increasing difficulty. |
 
+## Creative Writing & Role-Playing
+
+| Name | Description |
+| --- | --- |
+| [Japanese-RP-Bench](https://github.com/tegnike/Japanese-RP-Bench) | A benchmark for Japanese role-playing LLMs that evaluates conversation quality, role fidelity, persona stability, resistance to persona replacement and misleading instructions, and recovery afterward. Version 2 retains the original 30-role, 10-exchange base evaluation while adding adversarial challenge scenarios. |
+| [EQ-Bench Creative Writing](https://eqbench.com/creative_writing.html) | An LLM-judged creative writing leaderboard that evaluates outputs from 32 prompts using both rubric scoring and pairwise comparisons with a modified Glicko rating system. It assesses qualities such as originality, character authenticity, coherence, and instruction following, while also reporting repetition and overused LLM phrase (“slop”) metrics. |
+
+## Cybersecurity
+
+| Name | Description |
+| --- | --- |
+| [DeepSecBench](https://vercel.com/ai-gateway/leaderboards/deepsecbench) | A leaderboard measuring how effectively AI models find security vulnerabilities in application code using the DeepSec cyber harness. It combines recall and precision into a benchmark score and also compares false positives, cost, and execution time. |
+
 ## Embedding Models
 
 | Name | Description |

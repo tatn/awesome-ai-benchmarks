@@ -48,6 +48,19 @@
 | --- | --- |
 | [FrontierMath](https://epoch.ai/frontiermath/tiers-1-4?view=graph&tab=leaderboard&tier=Core+%28Tiers+1-3%29) | Epoch AIが開発した、学部レベルから未解決の研究課題まで段階的に難易度が上がる数学問題でAIの高度な数学推論能力を測定するベンチマーク。 |
 
+## 創作・ロールプレイ
+
+| 名称 | 説明 |
+| --- | --- |
+| [Japanese-RP-Bench](https://github.com/tegnike/Japanese-RP-Bench) | 日本語ロールプレイLLMの会話品質・役柄への追従性・人格の安定性・人格置換や誤誘導への耐性・その後の復帰力を評価するベンチマーク。v2では従来の30ロール・10往復の基本評価を維持しつつ、敵対的なチャレンジシナリオを追加。 |
+| [EQ-Bench Creative Writing](https://eqbench.com/creative_writing.html) | 32種類のプロンプトに対する創作文を、LLMによるルーブリック採点とペアワイズ比較に基づく修正版Glickoレーティングの両方で評価するリーダーボード。独創性・人物描写・一貫性・指示追従などに加え、反復表現やLLM特有の常套句（Slop）の使用傾向も可視化。 |
+
+## サイバーセキュリティ
+
+| 名称 | 説明 |
+| --- | --- |
+| [DeepSecBench](https://vercel.com/ai-gateway/leaderboards/deepsecbench) | DeepSecのサイバーハーネスを用いて、AIモデルがアプリケーションコード内のセキュリティ脆弱性を発見する能力を測定するリーダーボード。再現率と適合率を統合したスコアに加え、誤検知数・コスト・実行時間も比較。 |
+
 ## 埋め込みモデル
 
 | 名称 | 説明 |
