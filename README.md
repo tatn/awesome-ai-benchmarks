@@ -22,8 +22,6 @@
 | --- | --- |
 | [LM Arena](https://lmarena.ai/ja/leaderboard) | A community-driven platform where users anonymously compare AI model outputs and vote to form Elo-based rankings. Covers a wide range of categories including text, image, and video generation. |
 | [Design Arena](https://www.designarena.ai/leaderboard) | A crowdsourced benchmark for AI-generated design. Users anonymously compare outputs generated from the same prompt, and the resulting pairwise votes are aggregated into Bradley-Terry ratings. Rather than treating each modality as a separate benchmark, the unified leaderboard provides dedicated views for [Code](https://www.designarena.ai/leaderboard), [Slides](https://www.designarena.ai/leaderboard?tab=slides), [Image](https://www.designarena.ai/leaderboard?tab=image), [Video](https://www.designarena.ai/leaderboard?tab=video), [Audio](https://www.designarena.ai/leaderboard?tab=audio), and [Builders](https://www.designarena.ai/leaderboard?tab=builders), with more granular evaluations such as web and app development, game development, image editing, video editing, and text-to-speech. |
-| [Yupp Leaderboard](https://yupp.ai/leaderboard) | A leaderboard that ranks AI models based on community evaluation data, surfacing model quality through collective user insights from real-world usage. |
-| [Open WebUI Leaderboard](https://openwebui.com/leaderboard) | A leaderboard ranking 100+ models based on actual user usage and ratings within the Open WebUI open-source LLM frontend community. |
 
 ## Coding & Software Development
 
@@ -31,8 +29,9 @@
 | --- | --- |
 | [DeepSWE](https://deepswe.datacurve.ai/) | Measuring frontier coding agents on original, long-horizon engineering tasks. |
 | [SWE-rebench](https://swe-rebench.com/) | A software engineering benchmark that continuously updates with new tasks and uses time-window analysis to detect and eliminate data contamination. Designed to address contamination issues in SWE-bench. |
-| [SWE-Bench Pro (Public)](https://labs.scale.com/leaderboard/swe_bench_pro_public) | A large-scale benchmark by Scale with 1,865 tasks. Uses copyleft-licensed code to prevent data contamination and rigorously evaluates AI problem-solving across diverse real-world tasks from B2B, consumer apps, and developer tools (public dataset). |
-| [SWE-bench](https://www.swebench.com/) | A benchmark measuring how well AI can resolve bug fixes and feature implementations using real GitHub issues from OSS projects such as Django and Matplotlib. Offers multiple variants including Verified, Multilingual, and Multimodal. |
+| [SWE Atlas - Codebase QnA](https://labs.scale.com/leaderboard/sweatlas-qna) | A Scale benchmark of 124 tasks across 11 production repositories and four programming languages. Coding agents investigate running software and reason across files to answer technical questions about codebases; answers are scored against task-specific rubrics. |
+| [FrontierCode](https://cognition.com/frontiercode) | Cognition's leaderboard evaluates coding agents on realistic tasks written by open-source maintainers. It measures whether a proposed change is mergeable, considering correctness, tests, scope, style, and repository standards through tests, rubrics, and other verifiers. |
+| [CursorBench](https://cursor.com/ja/cursorbench) | Cursor's leaderboard evaluates coding agents on ambiguous, multi-file development tasks drawn from real Cursor sessions. It compares task scores alongside cost, token usage, and steps. |
 | [Convex LLM Leaderboard](https://www.convex.dev/llm-leaderboard/with-guidelines) | A leaderboard evaluating code generation quality for the Convex platform. Compares performance with and without guidelines, measuring the impact of prompt design in practice. |
 
 ## AI Agents
@@ -40,8 +39,6 @@
 | Name | Description |
 | --- | --- |
 | [Terminal-Bench](https://www.tbench.ai/) | A benchmark evaluating AI agents' terminal operation capabilities by success rate across tasks spanning software development, ML, security, and data science. |
-| [SanityHarness](https://sanityboard.lr7.dev/) | A high-signal leaderboard evaluating AI coding agents with weighted scoring across 26 tasks in multiple languages including Dart, Go, Kotlin, Rust, TypeScript, and Zig. |
-| [τ-bench](https://taubench.com/#leaderboard) | A benchmark that simulates business scenarios such as airlines and retail, measuring AI agents' ability to complete tasks through user interaction and dialogue. |
 
 ## Math & Reasoning
 
@@ -53,7 +50,6 @@
 
 | Name | Description |
 | --- | --- |
-| [Japanese-RP-Bench](https://github.com/tegnike/Japanese-RP-Bench) | A benchmark for Japanese role-playing LLMs that evaluates conversation quality, role fidelity, persona stability, resistance to persona replacement and misleading instructions, and recovery afterward. Version 2 retains the original 30-role, 10-exchange base evaluation while adding adversarial challenge scenarios. |
 | [Hemingway-bench](https://surgehq.ai/benchmarks/hemingway-bench) | A writing benchmark and leaderboard evaluated by professional writers across creative, business, and everyday writing tasks. It emphasizes taste, originality, coherence, and emotional intelligence, aiming to reward genuinely effective writing rather than surface-level signals such as elaborate metaphors. |
 | [LLM Creative Story-Writing Benchmark](https://github.com/lechmazur/writing) | A short-story benchmark in which every model receives the same constrained creative brief and must meaningfully incorporate ten required elements, including a character, object, concept, attribute, action, method, setting, timeframe, motivation, and tone. Matched story pairs are judged by evaluator models, and the results are aggregated into a relative comparison score; the repository also publishes prompts, outputs, uncertainty ranges, and diagnostics such as word-count compliance. |
 | [EQ-Bench Longform Creative Writing](https://eqbench.com/creative_writing_longform.html) | An LLM-judged long-form writing benchmark that tests planning a story from a minimal prompt, reflecting on and revising the plan, and writing a novella across eight roughly 1,000-word turns. Its rubric covers nuanced characters, emotional engagement, plot, coherence, tone, character consistency, plan and prompt adherence, as well as weak dialogue, tell-don't-show, clichés, amateurish writing, purple prose, and forced metaphors; it also reports repetition, LLM “slop,” and quality degradation across chapters. |
