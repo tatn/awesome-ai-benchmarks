@@ -46,6 +46,18 @@
 | --- | --- |
 | [FrontierMath](https://epoch.ai/frontiermath/tiers-1-4?view=graph&tab=leaderboard&tier=Core+%28Tiers+1-3%29) | A benchmark developed by Epoch AI that measures advanced mathematical reasoning with problems ranging from undergraduate level to unsolved research questions of increasing difficulty. |
 
+## System One & Decision Models
+
+Benchmarks for models that use an input state and supplied criteria to return typed decisions and probabilities: Noul (yes/no), Choice (candidate selection), and Score (numeric or ordinal scoring).
+
+| Name | Description |
+| --- | --- |
+| [S1MB Leaderboard](https://huggingface.co/spaces/hotchpotch/S1MB-leaderboard) | System One Mosaic Benchmark compares decision models across English-language tasks drawn from public NLP datasets and synthetic tasks. Covers Noul, Choice, and Score, with per-benchmark results, a Borda ranking, and baseline-adjusted task scores. A dedicated view shows adaptation to varied instructions and contexts; these scores do not establish generalization to all unseen tasks. |
+| [DecisionBench Leaderboard](https://huggingface.co/spaces/Hanno-Labs/decision-bench-leaderboard) | Hanno Labs' open benchmark for typed decisions across applied domains. Evaluates Boolean/Noul, runtime-defined Choice, and Ordered Score outputs using accuracy, coverage, expected calibration error (ECE), and negative log likelihood (NLL). Provides task, family, domain, and primitive breakdowns, reproducible result records, and a separate reasoning track. |
+| [JevBench — Benchmark Heaven](https://www.benchmarkheaven.com/jev-models) | Benchmark Heaven's benchmark for Jev-class decision models, comparing intelligence, probability calibration, inference cost, and latency. The main leaderboard ranks self-hosted open-weight systems, with Jev as an unranked reference and hosted APIs on a separate board. Jev-class eligibility uses cost and latency caps relative to Jev. |
+| [JevBench — Coherence Tests](https://jevbench.github.io/) | A benchmark from Queen's University Belfast that tests whether related probabilistic decisions obey probability and choice-theory laws. Covers representation changes, batch independence, probability additivity, logical ordering, and choice-set conditioning. Coherence tests need no gold labels; the leaderboard also reports accuracy alongside coherence to distinguish consistency from correctness. |
+| [jev-bench — Human-Labeled Dataset](https://huggingface.co/datasets/Praveenrajus/jev-bench) | A collection of human-labeled datasets reformatted as System One state/question pairs for Choice, Score, and Noul decisions, with evaluation code and model results. Measures accuracy, calibration, agreement with human label distributions where available, and coherence across related questions. Covers tasks such as intent routing, sentiment scoring, natural language inference, and content safety. |
+
 ## Creative Writing & Role-Playing
 
 | Name | Description |

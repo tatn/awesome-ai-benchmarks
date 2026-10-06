@@ -46,6 +46,18 @@
 | --- | --- |
 | [FrontierMath](https://epoch.ai/frontiermath/tiers-1-4?view=graph&tab=leaderboard&tier=Core+%28Tiers+1-3%29) | Epoch AIが開発した、学部レベルから未解決の研究課題まで段階的に難易度が上がる数学問題でAIの高度な数学推論能力を測定するベンチマーク。 |
 
+## System One・意思決定モデル
+
+入力の状態と指定された判断基準に基づき、Noul（はい／いいえ）、Choice（候補選択）、Score（数値・順序尺度による採点）という型付きの判断と確率を返すモデルを対象としたベンチマーク。
+
+| 名称 | 説明 |
+| --- | --- |
+| [S1MB Leaderboard](https://huggingface.co/spaces/hotchpotch/S1MB-leaderboard) | System One Mosaic Benchmarkのリーダーボード。公開NLPデータセット由来の課題と合成課題を用い、英語のNoul・Choice・Scoreタスクで意思決定モデルを比較する。個別ベンチマークの結果、Borda方式の順位集計、ベースライン補正済みのタスクスコアを提供。多様な指示や文脈への適応を確認する専用表示もあるが、あらゆる未知タスクへの汎化を保証する評価ではない。 |
+| [DecisionBench Leaderboard](https://huggingface.co/spaces/Hanno-Labs/decision-bench-leaderboard) | Hanno Labsによる、実用分野の型付き意思決定を対象としたオープンベンチマーク。Boolean／Noul、実行時に候補を指定するChoice、順序尺度のScoreを、正解率・応答カバレッジ・期待較正誤差（ECE）・負の対数尤度（NLL）で評価する。タスク・課題群・分野・判断型別の内訳、再現可能な結果記録、独立した推論トラックを提供。 |
+| [JevBench — Benchmark Heaven](https://www.benchmarkheaven.com/jev-models) | Benchmark Heavenが運営するJevクラスの意思決定モデル向けベンチマーク。判断能力・確率の較正・推論コスト・レイテンシーを比較する。主リーダーボードでは自前の環境で実行した重み公開モデルを順位付けし、Jevを順位対象外の参照モデルとして表示。ホスト型APIは別の一覧で比較し、Jevクラスへの該当はJevに対するコストとレイテンシーの上限で判定する。 |
+| [JevBench — 確率の整合性テスト](https://jevbench.github.io/) | クイーンズ大学ベルファストによる、関連する確率的判断が確率論・選択理論の法則に従うかを検証するベンチマーク。表現変更、バッチ内の他の質問からの独立性、確率の加法性、論理的な順序関係、選択肢集合による条件付けを評価する。整合性テストに正解ラベルは不要で、リーダーボードには正解率も併記し、整合性と正しさを区別して確認できる。 |
+| [jev-bench — 人手ラベル付きデータセット](https://huggingface.co/datasets/Praveenrajus/jev-bench) | 人手ラベル付きの既存データセットを、System Oneの状態・質問の組に変換したChoice・Score・Noul向け評価データ集。評価コードとモデル比較結果も公開し、正解率・確率の較正・利用可能な人間のラベル分布との一致度・関連質問間の整合性を測定する。意図に基づく振り分け、感情の採点、自然言語推論、コンテンツ安全性などのタスクを収録。 |
+
 ## 創作・ロールプレイ
 
 | 名称 | 説明 |
