@@ -22,6 +22,7 @@
 | --- | --- |
 | [LM Arena](https://lmarena.ai/ja/leaderboard) | ユーザーがAIモデルの出力を匿名で比較投票し、Eloレーティング方式でランキングを形成するコミュニティ主導プラットフォーム。テキスト・画像・動画生成など幅広いカテゴリに対応。 |
 | [Design Arena](https://www.designarena.ai/leaderboard) | AIが生成するデザインを対象としたクラウドソーシング型ベンチマーク。同一プロンプトから生成された出力をユーザーがモデル名を伏せた状態で比較し、そのペアワイズ投票をBradley-Terryモデルによるレーティングに集約する。モダリティごとに別ベンチマークとして分けるのではなく、統合リーダーボード内に[コード](https://www.designarena.ai/leaderboard)・[スライド](https://www.designarena.ai/leaderboard?tab=slides)・[画像](https://www.designarena.ai/leaderboard?tab=image)・[動画](https://www.designarena.ai/leaderboard?tab=video)・[音声](https://www.designarena.ai/leaderboard?tab=audio)・[ビルダー](https://www.designarena.ai/leaderboard?tab=builders)の専用表示を設け、Web／アプリ開発、ゲーム開発、画像・動画編集、音声合成などをさらに細分化して評価する。 |
+| [aivs.tv](https://aivs.tv/) | X（旧Twitter）に投稿された、同一プロンプトで複数のAIモデル（コーディング・動画）を比較した投稿を集めたギャラリー。対戦カード・モデル・定番テストプロンプト・コーディングハーネス別に閲覧でき、投稿者が報告したコスト・時間や、投稿者がどのモデルを選んだかの集計も掲載。 |
 
 ## コーディング・ソフトウェア開発
 

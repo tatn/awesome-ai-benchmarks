@@ -22,6 +22,7 @@
 | --- | --- |
 | [LM Arena](https://lmarena.ai/ja/leaderboard) | A community-driven platform where users anonymously compare AI model outputs and vote to form Elo-based rankings. Covers a wide range of categories including text, image, and video generation. |
 | [Design Arena](https://www.designarena.ai/leaderboard) | A crowdsourced benchmark for AI-generated design. Users anonymously compare outputs generated from the same prompt, and the resulting pairwise votes are aggregated into Bradley-Terry ratings. Rather than treating each modality as a separate benchmark, the unified leaderboard provides dedicated views for [Code](https://www.designarena.ai/leaderboard), [Slides](https://www.designarena.ai/leaderboard?tab=slides), [Image](https://www.designarena.ai/leaderboard?tab=image), [Video](https://www.designarena.ai/leaderboard?tab=video), [Audio](https://www.designarena.ai/leaderboard?tab=audio), and [Builders](https://www.designarena.ai/leaderboard?tab=builders), with more granular evaluations such as web and app development, game development, image editing, video editing, and text-to-speech. |
+| [aivs.tv](https://aivs.tv/) | A curated gallery of side-by-side comparisons posted on X, where authors give multiple AI models (coding and video) the same prompt and share the outputs. Organized by matchup, model, classic test prompt and coding harness, with reported cost/time and a ranking of which model authors preferred. |
 
 ## Coding & Software Development
 
