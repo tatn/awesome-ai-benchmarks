@@ -16,6 +16,7 @@
 | [Vellum LLM Leaderboard](https://www.vellum.ai/llm-leaderboard) | A leaderboard comparing leading LLMs across public benchmarks such as GPQA Diamond, AIME, SWE-Bench Verified, and ARC-AGI, along with throughput and cost efficiency. |
 | [Nejumi Leaderboard 4](https://nejumi.ai/) | A Japanese LLM evaluation leaderboard operated by Weights & Biases. Comprehensively assesses Japanese generation accuracy, practical application development capabilities, and safety to support LLM selection for the Japanese market. |
 
+| [ModelBenchmark](https://modelbenchmark.io) | Independent AI model rankings combining 16 public benchmarks for 202 models, plus prices, context windows, release dates, and a 2,406-model catalog. |
 ## User-Driven Rankings
 
 | Name | Description |
