@@ -15,6 +15,7 @@
 | [Scale Labs Leaderboard](https://labs.scale.com/leaderboard) | Scale's AI model evaluation platform aggregating expert-driven benchmarks across multiple categories including agentic capabilities, frontier reasoning, and safety (SWE-Bench Pro, Humanity's Last Exam, etc.). |
 | [Vellum LLM Leaderboard](https://www.vellum.ai/llm-leaderboard) | A leaderboard comparing leading LLMs across public benchmarks such as GPQA Diamond, AIME, SWE-Bench Verified, and ARC-AGI, along with throughput and cost efficiency. |
 | [Nejumi Leaderboard 4](https://nejumi.ai/) | A Japanese LLM evaluation leaderboard operated by Weights & Biases. Comprehensively assesses Japanese generation accuracy, practical application development capabilities, and safety to support LLM selection for the Japanese market. |
+| [AGI Meridian](https://auerin.com/) | What AI can do in coding, hacking, science, jobs and the US-China race. |
 
 ## User-Driven Rankings
 
