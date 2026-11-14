@@ -15,6 +15,7 @@
 | [Scale Labs Leaderboard](https://labs.scale.com/leaderboard) | Scale社が運営するAIモデル評価プラットフォーム。エージェント能力・先端推論・安全性など複数カテゴリの専門的ベンチマーク（SWE-Bench Pro、Humanity's Last Exam等）を集約。 |
 | [Vellum LLM Leaderboard](https://www.vellum.ai/llm-leaderboard) | 主要LLMをGPQA Diamond・AIME・SWE-Bench Verified・ARC-AGIなどの公開ベンチマークに加え、処理速度やコスト効率も含めて一覧比較できるリーダーボード。 |
 | [Nejumi Leaderboard 4](https://nejumi.ai/) | Weights & Biases運営の日本語LLM評価リーダーボード。日本語の生成精度に加え、実用的なアプリケーション開発能力と安全性を総合的に評価し、国内向けLLM選定を支援。 |
+| [AIHOT モデルランキング](https://aihot.news/leaderboard) | 第三者が公開した評価結果に基づく中国語のモデルランキング。モデルごとのスコアと評価元へのリンクを確認できる。 |
 
 ## ユーザー評価型ランキング
 
