@@ -22,6 +22,7 @@
 | --- | --- |
 | [LM Arena](https://lmarena.ai/ja/leaderboard) | A community-driven platform where users anonymously compare AI model outputs and vote to form Elo-based rankings. Covers a wide range of categories including text, image, and video generation. |
 | [Design Arena](https://www.designarena.ai/leaderboard) | A crowdsourced benchmark for AI-generated design. Users anonymously compare outputs generated from the same prompt, and the resulting pairwise votes are aggregated into Bradley-Terry ratings. Rather than treating each modality as a separate benchmark, the unified leaderboard provides dedicated views for [Code](https://www.designarena.ai/leaderboard), [Slides](https://www.designarena.ai/leaderboard?tab=slides), [Image](https://www.designarena.ai/leaderboard?tab=image), [Video](https://www.designarena.ai/leaderboard?tab=video), [Audio](https://www.designarena.ai/leaderboard?tab=audio), and [Builders](https://www.designarena.ai/leaderboard?tab=builders), with more granular evaluations such as web and app development, game development, image editing, video editing, and text-to-speech. |
+| [Highworth AI](https://highworth.ai/) | A community-driven review site where users score 60+ AI models as "worth it" or not; reviews are collected from Hacker News, Reddit, V2EX and Bilibili and every quote links to its original source. |
 
 ## Coding & Software Development
 
